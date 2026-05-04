@@ -1,0 +1,8 @@
+def count_words(sentence):
+    words = sentence.split()
+    return len(words)
+print(count_words("Hello world from Python"))
+
+  OUTPUT
+  print(count_words("Hello world from Python"))
+4
